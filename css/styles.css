@@ -1,0 +1,80 @@
+html, body {
+    padding: 0px;
+    margin: 0px;
+    border: 10px solid rgb(6, 78, 6);
+}
+
+input {
+    font-size: 14px;
+    font-family: Helvetica, sans-serif;
+}
+
+body{
+    background-color: #BBB;
+    font-family: Helvetica, sans-serif;
+    padding-bottom: 100px;
+}
+
+h2, h3{
+    margin: 0 0 .75em 0;
+}
+
+
+.form-row {
+    padding:10px 0;
+    display: flex;
+}
+
+.form-row label {
+    padding-right: 10px;
+}
+
+.form-row input {
+    flex: 1;
+}
+
+/* second example */
+
+.column-layout{
+    max-width: 1300px;
+    background-color: #FFF;
+    margin: 40px auto 0 auto;
+    line-height: 1.65;
+    padding: 20px 50px;
+    display: flex;
+}
+
+.main-column {
+    flex: 3;
+    order: 2;
+}
+
+.sidebar-one {
+    flex: 1;
+    order: 1;
+}
+
+.sidebar-two {
+    flex: 1;
+    order: 3;
+}
+
+/* Third example */
+
+.call-outs-container {
+    max-width: 1400px;
+    margin: 40px auto 0 auto;
+    display: flex;
+    align-items: flex-start;
+}
+
+.call-out {
+    padding: 20px;
+    margin-bottom: 20px;
+    flex: 1;
+    margin-right: 40px;
+}
+
+.call-out:nth-child(1){background-color: #c0dbe2;}
+.call-out:nth-child(2){background-color: #cdf1c3;}
+.call-out:nth-child(3){background-color: #ccb9da;}
